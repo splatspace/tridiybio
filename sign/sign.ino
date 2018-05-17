@@ -9,6 +9,7 @@
  * THEY HAVE SEPARATE POWER CONNECTIONS.
  *
  * pete@soper.us February, May, 2018
+ * MIT License (see LICENSE in this repository)
  */
 
 // Pete's build environment is include-nesting challenged, so he needs this
