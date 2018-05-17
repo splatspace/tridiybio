@@ -102,6 +102,12 @@ void setup() {
  */
 
 void put1() {
+  // The x limit negative number determines the timing of the sign output.
+  // Just play with this until you get the text output to complete near
+  // the right end of the sign. Do that for put2() and put3() also (using
+  // the "#if" expressions in loop() to isolate one message display at a time).
+  // Then tune INTER_MESSAGE_PAUSE until you're happy with the way all the
+  // messages come out.
   for (int x = matrix.width(); x >= -180; x--) {
     matrix.fillScreen(0);
     matrix.setCursor(x, 0);
