@@ -108,7 +108,7 @@ void put1() {
   // the "#if" expressions in loop() to isolate one message display at a time).
   // Then tune INTER_MESSAGE_PAUSE until you're happy with the way all the
   // messages come out.
-  for (int x = matrix.width(); x >= -180; x--) {
+  for (int x = matrix.width(); x >= -85; x--) {
     matrix.fillScreen(0);
     matrix.setCursor(x, 0);
     matrix.print(F("TRIDIYBIO OPEN"));
@@ -162,9 +162,10 @@ void loop() {
 #endif
 
   put1();
-  put2();
 
 #if false
+  put2();
+
   put3();
 #endif
 }
