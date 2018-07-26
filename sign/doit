@@ -1,0 +1,2 @@
+#!/bin/sh
+bu AVRDUDE_ARD_BAUDRATE=57600 BOARD_TAG=nano MCU=atmega328p
